@@ -4,10 +4,35 @@
 }
 
 .menu li{
-    display: inline-block;
+    display: inline;
 }
 
 .menu li a{
-    background-color: lightskyblue;
+    
     padding: 10px;
+    text-decoration: none;
+}
+
+.item1:hover{
+    background-color: lightblue;
+}
+
+.item2:hover{
+    background-color: lightgray;
+}
+
+.item3:hover{
+    background-color: lightgreen;
+}
+
+.item4:hover{
+    background-color: lightpink;
+}
+
+.item5:hover{
+    background-color: lightseagreen;
+}
+
+.item6:hover{
+    background-color: lightsalmon;
 }
