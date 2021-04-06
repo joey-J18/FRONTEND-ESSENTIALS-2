@@ -1,9 +1,10 @@
-function outputLetters(str){
-    for (let i = 0; i < str.length; i++) {
-        const element = array[i];
-        
-    }
+var str = "Dit is een array van letters";
+var arr = str.split("");
+var text = "";
+var i;
+for (i = 0; i < arr.length; i++) {
+  text += arr[i] + "<br>"
 }
+document.getElementById("demo").innerHTML = text;
 
-var voorbeeldString = "Dit is een array van letters";
-console.log(voorbeeldString.length); // geeft terug: 
+

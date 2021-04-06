@@ -8,7 +8,8 @@ function getRandomAantalSpelers(){
 
 //vult de spelersScore array met 0;
 for (let i = 0; i < getRandomAantalSpelers(); i++) {
-    spelersScore.push(0);
+    spelersScore.push(0)
+    
 }
 
 //Bepaalt een random aantal punten voor een ronde tussen 0 en 100
@@ -18,7 +19,11 @@ function getRandomScore(){
 
 //Vult de rondePunten array met een random aantal punten tussen 0 en 100
 for (let i = 0; i < spelersScore.length; i++) {
-    rondePunten.push(getRandomScore());
+    rondePunten.push(getRandomScore())
+   
 }
 
 //Schrijf hieronder je code
+
+
+console.log(getRandomAantalSpelers(),getRandomScore())

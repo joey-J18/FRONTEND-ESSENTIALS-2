@@ -32,4 +32,9 @@ document.querySelector(".film9-naam").innerHTML = topFilms[8];
 document.querySelector(".film10-ranking").innerHTML = 10;
 document.querySelector(".film10-naam").innerHTML = topFilms[9];
 
-
+function kiesFavorieteFilm(){
+    var antw = prompt("Wat is jouw favoriete film") ;
+    console.log(topFilms[antw-1]);
+    document.querySelector(".film"+ antw +"-naam").style.backgroundColor = "Blue";
+    document.querySelector(".film"+ antw +"-naam").style.color = "white";
+}
