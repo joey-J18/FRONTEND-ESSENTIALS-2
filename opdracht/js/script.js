@@ -15,7 +15,7 @@ function stringNaarPosities(str){
         for (let j = 0; j < strAlfabet.length; j++) {
             if(str[i].toUpperCase() == strAlfabet[j]){
                 outputArray.push(j);
-                // console.log("Letter: " + i + " = " + str[i] + " -> positie in alfabet = " + j);
+                //console.log("Letter: " + i + " = " + str[i] + " -> positie in alfabet = " + j);
             }
         }
     }
@@ -27,6 +27,14 @@ function stringNaarPosities(str){
 function positiesNaarString(arr){
     var outputString = "";
     //TODO: opdracht 1
+    for (let i = 0; i < arr.length; i++) {
+        for (let j = 0; j < arrOutputPosities.length; j++) { 
+            if (arr[i].toUpperCase() == arrOutputPosities[j]){
+                outputString.push(j);
+            }
+        }   
+    }
+   
     return outputString;
 }
 
@@ -42,8 +50,15 @@ function vermenigvuldigCodeword(strInput, strCodeword){
     var intMod = inputLength % codewordLength; //het aantal letters dat overblijft die nog moeten worden aangevuld
 
     //TODO: opdracht 2
+    for (let i = 0; i < strInput.length; i++){
 
-    // console.log("Codeword full: " + outputString);
+    }
+    for (let i = 0; i < strCodeword.length; i++) {
+        
+        
+    }
+
+    console.log("Codeword full: " + outputString);
     return outputString;
 }
 

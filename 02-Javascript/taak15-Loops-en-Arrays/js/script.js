@@ -8,7 +8,7 @@ function getRandomAantalSpelers(){
 
 //vult de spelersScore array met 0;
 for (let i = 0; i < getRandomAantalSpelers(); i++) {
-    spelersScore.push(0)
+    spelersScore.push(i)
     
 }
 
@@ -24,6 +24,10 @@ for (let i = 0; i < spelersScore.length; i++) {
 }
 
 //Schrijf hieronder je code
+for (let i = 0; i < spelersScore.length; i++) {
+    spelersScore[i] += 1;
+    
+}
 
-
-console.log(getRandomAantalSpelers(),getRandomScore())
+console.log(spelersScore)
+console.log(rondePunten)
